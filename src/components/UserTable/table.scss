@@ -1,0 +1,65 @@
+.table{
+    width: 100%;
+    height: auto;
+
+    table{
+        width: 100%;
+
+        .orderedproduct{
+            width: 100%;
+            height: 20px;
+            background-color: red;
+        }
+        th{
+            border-bottom: 1px solid gray;
+
+        }
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+        .td{
+            font-size: 12px;
+        }
+        .row{
+            width: 5%;
+        }
+        .profile{
+            width: 10%;
+        }
+        .instock{
+            width: 10%;
+        }
+        .prof img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        .funcs button{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            color: white;
+        }
+        .funcs button{
+            background-color: crimson;
+        }
+        .funcs a , .funcs button:nth-child(2){
+            background-color: teal;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}

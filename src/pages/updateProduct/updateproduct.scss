@@ -1,0 +1,58 @@
+.updateproduct{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 80%;
+        height: auto;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+
+        .addinput{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+        .addinput:hover{
+            background-color: rgb(5, 184, 184);
+        }
+        .addinput.m{
+            background-color: crimson;
+        }
+        .addinput.m:hover{
+            background-color: rgb(232, 6, 51);
+        }
+
+        form{
+
+
+            input{
+                border: none;
+                border-radius: 5px;
+                margin: 3px;
+                border-bottom: 1px solid gray;
+                padding: 3px;
+            }
+            .submitbtn{
+                padding: 3px 50px ;
+                border: none;
+                background-color: green;
+                color: white;
+                border-radius: 5px;
+                margin: 10px;
+            }
+            .necessary{
+                color: red;
+            }
+        }
+    }
+}
